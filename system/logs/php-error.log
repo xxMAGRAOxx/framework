@@ -1,0 +1,38 @@
+[21-Nov-2014 10:06:58 America/Sao_Paulo] PHP Notice:  Undefined variable: t in C:\wamp\www\framework\index.php on line 53
+[21-Nov-2014 10:06:58 America/Sao_Paulo] PHP Stack trace:
+[21-Nov-2014 10:06:58 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 13:18:29 Europe/Paris] PHP Notice:  Undefined variable: t in C:\wamp\www\framework\index.php on line 53
+[21-Nov-2014 13:18:29 Europe/Paris] PHP Stack trace:
+[21-Nov-2014 13:18:29 Europe/Paris] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 13:18:41 Europe/Paris] PHP Notice:  Undefined variable: t in C:\wamp\www\framework\index.php on line 53
+[21-Nov-2014 13:18:41 Europe/Paris] PHP Stack trace:
+[21-Nov-2014 13:18:41 Europe/Paris] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 13:19:43 Europe/Paris] PHP Notice:  Undefined variable: t in C:\wamp\www\framework\index.php on line 53
+[21-Nov-2014 13:19:43 Europe/Paris] PHP Stack trace:
+[21-Nov-2014 13:19:43 Europe/Paris] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 13:20:08 Europe/Paris] PHP Notice:  Undefined variable: t in C:\wamp\www\framework\index.php on line 53
+[21-Nov-2014 13:20:08 Europe/Paris] PHP Stack trace:
+[21-Nov-2014 13:20:08 Europe/Paris] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 10:20:27 America/Sao_Paulo] PHP Notice:  Undefined variable: t in C:\wamp\www\framework\index.php on line 53
+[21-Nov-2014 10:20:27 America/Sao_Paulo] PHP Stack trace:
+[21-Nov-2014 10:20:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 10:31:48 America/Sao_Paulo] PHP Fatal error:  Call to undefined function redirect() in C:\wamp\www\framework\index.php on line 49
+[21-Nov-2014 10:31:48 America/Sao_Paulo] PHP Stack trace:
+[21-Nov-2014 10:31:48 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 10:47:37 America/Sao_Paulo] PHP Notice:  Undefined variable: request in C:\wamp\www\framework\index.php on line 43
+[21-Nov-2014 10:47:37 America/Sao_Paulo] PHP Stack trace:
+[21-Nov-2014 10:47:37 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 10:47:37 America/Sao_Paulo] PHP Notice:  Trying to get property of non-object in C:\wamp\www\framework\index.php on line 43
+[21-Nov-2014 10:47:37 America/Sao_Paulo] PHP Stack trace:
+[21-Nov-2014 10:47:37 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 10:47:45 America/Sao_Paulo] PHP Notice:  Undefined property: Request::$class in C:\wamp\www\framework\index.php on line 45
+[21-Nov-2014 10:47:45 America/Sao_Paulo] PHP Stack trace:
+[21-Nov-2014 10:47:45 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 11:52:02 America/Sao_Paulo] PHP Notice:  Undefined variable: url in C:\wamp\www\framework\system\core\router.php on line 14
+[21-Nov-2014 11:52:02 America/Sao_Paulo] PHP Stack trace:
+[21-Nov-2014 11:52:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 11:52:02 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:50
+[21-Nov-2014 11:52:02 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\framework\system\core\router.php on line 14
+[21-Nov-2014 11:52:02 America/Sao_Paulo] PHP Stack trace:
+[21-Nov-2014 11:52:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[21-Nov-2014 11:52:02 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:50

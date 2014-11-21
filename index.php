@@ -1,23 +1,57 @@
-<?php
+﻿<?php
 	// Versão do Framework
-	define('_VERSION', '0');
-	define('_DEVELOPMENT_MODE', 'developer');
+	define('VERSION', '0');
+	
+	define('ENVIRONMENT', 'development');
 	
 	//Inclui os arquivos do sistema
 	require('config.php');	
-	require(_DIR_SYSTEM .'core/request.php');
+	require(DIR_SYSTEM . 'core/request.php');
+	require(DIR_SYSTEM . 'core/router.php');
 	
+	
+	//Seta o charset
+	if(defined(CHARSET))
+	{
+		mb_internal_encoding(CHARSET);
+	}
+	
+	//Ambiente de desenvolvimento
+	if (defined('ENVIRONMENT'))
+	{
+		switch(ENVIRONMENT)
+		{
+			case 'development' :
+				error_reporting(E_ALL);
+				break;
+			case 'production' :
+				error_reporting(0);
+				break;
+			default:
+				exit('O ambiente de desenvolvimento não foi setado corretamente!');
+				
+		}
+	}
+	
+	//Log de erros
+	ini_set("error_log", DIR_SYSTEM . "logs/php-error.log");
+	
+	//Timezone
+	if(defined('TIMEZONE'))
+	{
+		date_default_timezone_set(TIMEZONE);
+	}
 	
 	//Faz o roteamento
 	$request = new Request();
 	
 	if ($request->get('route'))
 	{
-		echo 'go';
+		$router = new Router($request->get('route'));
 	}
-	else 
+	else
 	{
-		echo 'Padrão'; //Roteador padrão
+		$router = new Router('home');//Página padrão
 	}
 	
 ?>
