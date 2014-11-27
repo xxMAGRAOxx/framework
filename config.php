@@ -2,7 +2,6 @@
 	define('DIR_APPLICATION', __DIR__ . '/application/');
 	define('DIR_DATABASE', __DIR__ . '/database/');	
 	define('DIR_SYSTEM', __DIR__ . '/system/');
-	define('DIR_CORE', DIR_SYSTEM . 'core/');
 	
 	define('CHARSET', 'UTF-8');
 	define('TIMEZONE', 'America/Sao_Paulo');

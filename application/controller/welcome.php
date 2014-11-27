@@ -1,3 +1,9 @@
 <?php
-	//Controlador
+	class Welcome
+	{
+		public function index()
+		{
+			
+		}
+	}
 ?>

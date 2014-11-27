@@ -36,3 +36,309 @@
 [21-Nov-2014 11:52:02 America/Sao_Paulo] PHP Stack trace:
 [21-Nov-2014 11:52:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
 [21-Nov-2014 11:52:02 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:50
+[25-Nov-2014 17:46:39 America/Sao_Paulo] PHP Catchable fatal error:  Argument 1 passed to Loader::execute() must be an instance of Action, instance of Router given, called in C:\wamp\www\framework\index.php on line 59 and defined in C:\wamp\www\framework\system\core\loader.php on line 4
+[25-Nov-2014 17:46:39 America/Sao_Paulo] PHP Stack trace:
+[25-Nov-2014 17:46:39 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[25-Nov-2014 17:46:39 America/Sao_Paulo] PHP   2. Loader->execute() C:\wamp\www\framework\index.php:59
+[25-Nov-2014 17:47:15 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Router::getFile() in C:\wamp\www\framework\system\core\loader.php on line 7
+[25-Nov-2014 17:47:15 America/Sao_Paulo] PHP Stack trace:
+[25-Nov-2014 17:47:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[25-Nov-2014 17:47:15 America/Sao_Paulo] PHP   2. Loader->execute() C:\wamp\www\framework\index.php:59
+[25-Nov-2014 17:48:57 America/Sao_Paulo] PHP Notice:  Undefined property: Router::$getClass in C:\wamp\www\framework\system\core\loader.php on line 8
+[25-Nov-2014 17:48:57 America/Sao_Paulo] PHP Stack trace:
+[25-Nov-2014 17:48:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[25-Nov-2014 17:48:57 America/Sao_Paulo] PHP   2. Loader->execute() C:\wamp\www\framework\index.php:59
+[25-Nov-2014 17:48:57 America/Sao_Paulo] PHP Fatal error:  Class name must be a valid object or a string in C:\wamp\www\framework\system\core\loader.php on line 8
+[25-Nov-2014 17:48:57 America/Sao_Paulo] PHP Stack trace:
+[25-Nov-2014 17:48:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[25-Nov-2014 17:48:57 America/Sao_Paulo] PHP   2. Loader->execute() C:\wamp\www\framework\index.php:59
+[25-Nov-2014 17:49:15 America/Sao_Paulo] PHP Notice:  Undefined property: Router::$getClass in C:\wamp\www\framework\system\core\loader.php on line 8
+[25-Nov-2014 17:49:15 America/Sao_Paulo] PHP Stack trace:
+[25-Nov-2014 17:49:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[25-Nov-2014 17:49:15 America/Sao_Paulo] PHP   2. Loader->execute() C:\wamp\www\framework\index.php:59
+[25-Nov-2014 17:49:15 America/Sao_Paulo] PHP Fatal error:  Class name must be a valid object or a string in C:\wamp\www\framework\system\core\loader.php on line 8
+[25-Nov-2014 17:49:15 America/Sao_Paulo] PHP Stack trace:
+[25-Nov-2014 17:49:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[25-Nov-2014 17:49:15 America/Sao_Paulo] PHP   2. Loader->execute() C:\wamp\www\framework\index.php:59
+[25-Nov-2014 17:49:38 America/Sao_Paulo] PHP Fatal error:  Class 'Controllerhome' not found in C:\wamp\www\framework\system\core\loader.php on line 10
+[25-Nov-2014 17:49:38 America/Sao_Paulo] PHP Stack trace:
+[25-Nov-2014 17:49:38 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[25-Nov-2014 17:49:38 America/Sao_Paulo] PHP   2. Loader->execute() C:\wamp\www\framework\index.php:59
+[25-Nov-2014 18:03:22 America/Sao_Paulo] PHP Fatal error:  Class 'Controller' not found in C:\wamp\www\framework\application\controller\home.php on line 3
+[25-Nov-2014 18:03:22 America/Sao_Paulo] PHP Stack trace:
+[25-Nov-2014 18:03:22 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[25-Nov-2014 18:03:22 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[25-Nov-2014 18:03:22 America/Sao_Paulo] PHP   3. require() C:\wamp\www\framework\system\core\loader.php:6
+[26-Nov-2014 16:24:46 America/Sao_Paulo] PHP Fatal error:  Class 'Controller' not found in C:\wamp\www\framework\application\controller\home.php on line 3
+[26-Nov-2014 16:24:46 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 16:24:46 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 16:24:46 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 16:24:46 America/Sao_Paulo] PHP   3. require() C:\wamp\www\framework\system\core\loader.php:6
+[26-Nov-2014 16:48:54 America/Sao_Paulo] PHP Catchable fatal error:  Object of class Router could not be converted to string in C:\wamp\www\framework\system\core\loader.php on line 14
+[26-Nov-2014 16:48:54 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 16:48:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 16:48:54 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 16:49:32 America/Sao_Paulo] PHP Notice:  Undefined property: ControllerHome::$index() in C:\wamp\www\framework\system\core\loader.php on line 15
+[26-Nov-2014 16:49:32 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 16:49:32 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 16:49:32 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 16:49:54 America/Sao_Paulo] PHP Notice:  Undefined property: ControllerHome::$index() in C:\wamp\www\framework\system\core\loader.php on line 15
+[26-Nov-2014 16:49:54 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 16:49:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 16:49:54 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 16:58:55 America/Sao_Paulo] PHP Deprecated:  Function call_user_method() is deprecated in C:\wamp\www\framework\system\core\loader.php on line 14
+[26-Nov-2014 16:58:55 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 16:58:55 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 16:58:55 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 16:58:55 America/Sao_Paulo] PHP Warning:  call_user_method(): Second argument is not an object or class name in C:\wamp\www\framework\system\core\loader.php on line 14
+[26-Nov-2014 16:58:55 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 16:58:55 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 16:58:55 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 16:58:55 America/Sao_Paulo] PHP   3. call_user_method() C:\wamp\www\framework\system\core\loader.php:14
+[26-Nov-2014 17:00:14 America/Sao_Paulo] PHP Deprecated:  Function call_user_method() is deprecated in C:\wamp\www\framework\system\core\loader.php on line 14
+[26-Nov-2014 17:00:14 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:00:14 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:00:14 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:00:22 America/Sao_Paulo] PHP Deprecated:  Function call_user_method() is deprecated in C:\wamp\www\framework\system\core\loader.php on line 14
+[26-Nov-2014 17:00:22 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:00:22 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:00:22 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:01:52 America/Sao_Paulo] PHP Warning:  call_user_func_array() expects exactly 2 parameters, 1 given in C:\wamp\www\framework\system\core\loader.php on line 14
+[26-Nov-2014 17:01:52 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:01:52 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:01:52 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:01:52 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:14}() C:\wamp\www\framework\system\core\loader.php:14
+[26-Nov-2014 17:02:00 America/Sao_Paulo] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in C:\wamp\www\framework\system\core\loader.php on line 14
+[26-Nov-2014 17:02:00 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:02:00 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:02:00 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:02:00 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:14}() C:\wamp\www\framework\system\core\loader.php:14
+[26-Nov-2014 17:02:37 America/Sao_Paulo] PHP Warning:  call_user_func_array() expects parameter 1 to be a valid callback, array must have exactly two members in C:\wamp\www\framework\system\core\loader.php on line 14
+[26-Nov-2014 17:02:37 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:02:37 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:02:37 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:02:37 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:14}() C:\wamp\www\framework\system\core\loader.php:14
+[26-Nov-2014 17:05:00 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Router::getArgs() in C:\wamp\www\framework\system\core\loader.php on line 14
+[26-Nov-2014 17:05:00 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:05:00 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:05:00 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:06:11 America/Sao_Paulo] PHP Warning:  call_user_func_array() expects parameter 2 to be array, null given in C:\wamp\www\framework\system\core\loader.php on line 14
+[26-Nov-2014 17:06:11 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:06:11 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:06:11 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:06:11 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:14}() C:\wamp\www\framework\system\core\loader.php:14
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP Warning:  Missing argument 1 for ControllerHome::index() in C:\wamp\www\framework\application\controller\home.php on line 4
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:14}() C:\wamp\www\framework\system\core\loader.php:14
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP   4. ControllerHome->index() C:\wamp\www\framework\system\core\loader.php:14
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP Notice:  Undefined variable: param1 in C:\wamp\www\framework\application\controller\home.php on line 6
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:14}() C:\wamp\www\framework\system\core\loader.php:14
+[26-Nov-2014 17:06:20 America/Sao_Paulo] PHP   4. ControllerHome->index() C:\wamp\www\framework\system\core\loader.php:14
+[26-Nov-2014 17:08:41 America/Sao_Paulo] PHP Warning:  require(): Filename cannot be empty in C:\wamp\www\framework\system\core\loader.php on line 6
+[26-Nov-2014 17:08:41 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:08:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:08:41 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:08:41 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '' (include_path='.;C:\php\pear') in C:\wamp\www\framework\system\core\loader.php on line 6
+[26-Nov-2014 17:08:41 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:08:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:08:41 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:08:43 America/Sao_Paulo] PHP Warning:  require(): Filename cannot be empty in C:\wamp\www\framework\system\core\loader.php on line 6
+[26-Nov-2014 17:08:43 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:08:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:08:43 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:08:43 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '' (include_path='.;C:\php\pear') in C:\wamp\www\framework\system\core\loader.php on line 6
+[26-Nov-2014 17:08:43 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:08:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:08:43 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:09:05 America/Sao_Paulo] PHP Warning:  require(): Filename cannot be empty in C:\wamp\www\framework\system\core\loader.php on line 6
+[26-Nov-2014 17:09:05 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:09:05 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:09:05 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:09:05 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '' (include_path='.;C:\php\pear') in C:\wamp\www\framework\system\core\loader.php on line 6
+[26-Nov-2014 17:09:05 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:09:05 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:09:05 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:15:39 America/Sao_Paulo] PHP Fatal error:  Class 'Controllercommon/home' not found in C:\wamp\www\framework\system\core\loader.php on line 10
+[26-Nov-2014 17:15:39 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:15:39 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:15:39 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:23:11 America/Sao_Paulo] PHP Warning:  array_shift() expects parameter 1 to be array, null given in C:\wamp\www\framework\system\core\router.php on line 39
+[26-Nov-2014 17:23:11 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:23:11 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:23:11 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 17:23:11 America/Sao_Paulo] PHP   3. array_shift() C:\wamp\www\framework\system\core\router.php:39
+[26-Nov-2014 17:29:37 America/Sao_Paulo] PHP Fatal error:  Class 'Controllercommon/home' not found in C:\wamp\www\framework\system\core\loader.php on line 10
+[26-Nov-2014 17:29:37 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:29:37 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:29:37 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:30:09 America/Sao_Paulo] PHP Fatal error:  Class 'Controllercommon/home' not found in C:\wamp\www\framework\system\core\loader.php on line 10
+[26-Nov-2014 17:30:09 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:30:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:30:09 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:30:23 America/Sao_Paulo] PHP Fatal error:  Class 'Controllercommon/home' not found in C:\wamp\www\framework\system\core\loader.php on line 10
+[26-Nov-2014 17:30:23 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:30:23 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:30:23 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:30:26 America/Sao_Paulo] PHP Fatal error:  Class 'Controllercommon/home' not found in C:\wamp\www\framework\system\core\loader.php on line 10
+[26-Nov-2014 17:30:26 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:30:26 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:30:26 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:31:26 America/Sao_Paulo] PHP Fatal error:  Class 'Controllercommon/home' not found in C:\wamp\www\framework\system\core\loader.php on line 10
+[26-Nov-2014 17:31:26 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:31:26 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:31:26 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:42:25 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\wamp\www\framework\system\core\router.php on line 58
+[26-Nov-2014 17:42:25 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:42:25 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:42:25 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 17:42:25 America/Sao_Paulo] PHP   3. array_push() C:\wamp\www\framework\system\core\router.php:58
+[26-Nov-2014 17:42:25 America/Sao_Paulo] PHP Warning:  array_push() expects parameter 1 to be array, null given in C:\wamp\www\framework\system\core\router.php on line 58
+[26-Nov-2014 17:42:25 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:42:25 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:42:25 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 17:42:25 America/Sao_Paulo] PHP   3. array_push() C:\wamp\www\framework\system\core\router.php:58
+[26-Nov-2014 17:45:10 America/Sao_Paulo] PHP Fatal error:  Class 'Controllercommon/home' not found in C:\wamp\www\framework\system\core\loader.php on line 10
+[26-Nov-2014 17:45:10 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:45:10 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:45:10 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:46:02 America/Sao_Paulo] PHP Notice:  Undefined variable: controller in C:\wamp\www\framework\system\core\loader.php on line 7
+[26-Nov-2014 17:46:02 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:46:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:46:02 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 17:50:04 America/Sao_Paulo] PHP Strict standards:  Only variables should be passed by reference in C:\wamp\www\framework\system\core\router.php on line 33
+[26-Nov-2014 17:50:04 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 17:50:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 17:50:04 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 18:06:11 America/Sao_Paulo] PHP Notice:  Undefined variable: url in C:\wamp\www\framework\system\core\router.php on line 33
+[26-Nov-2014 18:06:11 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:06:11 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:06:11 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 18:08:08 America/Sao_Paulo] PHP Notice:  Undefined variable: controller in C:\wamp\www\framework\system\core\loader.php on line 10
+[26-Nov-2014 18:08:08 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:08:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:08:08 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 18:08:19 America/Sao_Paulo] PHP Warning:  require(): Filename cannot be empty in C:\wamp\www\framework\system\core\loader.php on line 6
+[26-Nov-2014 18:08:19 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:08:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:08:19 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 18:08:19 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required '' (include_path='.;C:\php\pear') in C:\wamp\www\framework\system\core\loader.php on line 6
+[26-Nov-2014 18:08:19 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:08:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:08:19 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP Notice:  Undefined variable: url in C:\wamp\www\framework\system\core\router.php on line 34
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP Warning:  preg_replace(): No ending delimiter '$' found in C:\wamp\www\framework\system\core\router.php on line 34
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP   3. preg_replace() C:\wamp\www\framework\system\core\router.php:34
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP Fatal error:  Class name must be a valid object or a string in C:\wamp\www\framework\system\core\loader.php on line 12
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:14:16 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:58
+[26-Nov-2014 18:14:43 America/Sao_Paulo] PHP Notice:  Undefined variable: url in C:\wamp\www\framework\system\core\router.php on line 34
+[26-Nov-2014 18:14:43 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:14:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:14:43 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 18:14:43 America/Sao_Paulo] PHP Warning:  preg_replace(): No ending delimiter '$' found in C:\wamp\www\framework\system\core\router.php on line 34
+[26-Nov-2014 18:14:43 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:14:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:14:43 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 18:14:43 America/Sao_Paulo] PHP   3. preg_replace() C:\wamp\www\framework\system\core\router.php:34
+[26-Nov-2014 18:14:51 America/Sao_Paulo] PHP Warning:  preg_replace(): No ending delimiter '$' found in C:\wamp\www\framework\system\core\router.php on line 34
+[26-Nov-2014 18:14:51 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:14:51 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:14:51 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 18:14:51 America/Sao_Paulo] PHP   3. preg_replace() C:\wamp\www\framework\system\core\router.php:34
+[26-Nov-2014 18:17:41 America/Sao_Paulo] PHP Warning:  preg_replace(): Compilation failed: nothing to repeat at offset 0 in C:\wamp\www\framework\system\core\router.php on line 34
+[26-Nov-2014 18:17:41 America/Sao_Paulo] PHP Stack trace:
+[26-Nov-2014 18:17:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[26-Nov-2014 18:17:41 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:51
+[26-Nov-2014 18:17:41 America/Sao_Paulo] PHP   3. preg_replace() C:\wamp\www\framework\system\core\router.php:34
+[27-Nov-2014 11:13:33 America/Sao_Paulo] PHP Fatal error:  Class 'RouterException' not found in C:\wamp\www\framework\system\core\loader.php on line 28
+[27-Nov-2014 11:13:33 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:13:33 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:13:33 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:60
+[27-Nov-2014 11:13:46 America/Sao_Paulo] PHP Warning:  Missing argument 2 for LoaderException::__construct(), called in C:\wamp\www\framework\system\core\loader.php on line 28 and defined in C:\wamp\www\framework\system\core\exception\loader.php on line 8
+[27-Nov-2014 11:13:46 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:13:46 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:13:46 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:60
+[27-Nov-2014 11:13:46 America/Sao_Paulo] PHP   3. LoaderException->__construct() C:\wamp\www\framework\system\core\loader.php:28
+[27-Nov-2014 11:13:46 America/Sao_Paulo] PHP Notice:  Undefined variable: code in C:\wamp\www\framework\system\core\exception\loader.php on line 10
+[27-Nov-2014 11:13:46 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:13:46 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:13:46 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:60
+[27-Nov-2014 11:13:46 America/Sao_Paulo] PHP   3. LoaderException->__construct() C:\wamp\www\framework\system\core\loader.php:28
+[27-Nov-2014 11:14:20 America/Sao_Paulo] PHP Warning:  Missing argument 2 for LoaderException::__construct(), called in C:\wamp\www\framework\system\core\loader.php on line 28 and defined in C:\wamp\www\framework\system\core\exception\loader.php on line 8
+[27-Nov-2014 11:14:20 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:14:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:14:20 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:60
+[27-Nov-2014 11:14:20 America/Sao_Paulo] PHP   3. LoaderException->__construct() C:\wamp\www\framework\system\core\loader.php:28
+[27-Nov-2014 11:14:20 America/Sao_Paulo] PHP Notice:  Undefined variable: code in C:\wamp\www\framework\system\core\exception\loader.php on line 10
+[27-Nov-2014 11:14:20 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:14:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:14:20 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:60
+[27-Nov-2014 11:14:20 America/Sao_Paulo] PHP   3. LoaderException->__construct() C:\wamp\www\framework\system\core\loader.php:28
+[27-Nov-2014 11:14:49 America/Sao_Paulo] PHP Warning:  Missing argument 2 for LoaderException::__construct(), called in C:\wamp\www\framework\system\core\loader.php on line 28 and defined in C:\wamp\www\framework\system\core\exception\loader.php on line 8
+[27-Nov-2014 11:14:49 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:14:49 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:14:49 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:60
+[27-Nov-2014 11:14:49 America/Sao_Paulo] PHP   3. LoaderException->__construct() C:\wamp\www\framework\system\core\loader.php:28
+[27-Nov-2014 11:15:30 America/Sao_Paulo] PHP Notice:  Undefined property: LoaderException::$getCode in C:\wamp\www\framework\system\core\exception\loader.php on line 24
+[27-Nov-2014 11:15:30 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:15:30 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:15:30 America/Sao_Paulo] PHP   2. LoaderException->errorMessage() C:\wamp\www\framework\index.php:64
+[27-Nov-2014 11:31:27 America/Sao_Paulo] PHP Warning:  call_user_func_array() expects parameter 2 to be array, null given in C:\wamp\www\framework\system\core\loader.php on line 21
+[27-Nov-2014 11:31:27 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:31:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:31:27 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:61
+[27-Nov-2014 11:31:27 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:21}() C:\wamp\www\framework\system\core\loader.php:21
+[27-Nov-2014 11:31:43 America/Sao_Paulo] PHP Warning:  call_user_func_array() expects parameter 2 to be array, null given in C:\wamp\www\framework\system\core\loader.php on line 21
+[27-Nov-2014 11:31:43 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:31:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:31:43 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:61
+[27-Nov-2014 11:31:43 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:21}() C:\wamp\www\framework\system\core\loader.php:21
+[27-Nov-2014 11:32:01 America/Sao_Paulo] PHP Warning:  call_user_func_array() expects parameter 2 to be array, null given in C:\wamp\www\framework\system\core\loader.php on line 21
+[27-Nov-2014 11:32:01 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:32:01 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:32:01 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:61
+[27-Nov-2014 11:32:01 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:21}() C:\wamp\www\framework\system\core\loader.php:21
+[27-Nov-2014 11:34:00 America/Sao_Paulo] PHP Warning:  call_user_func_array() expects parameter 2 to be array, null given in C:\wamp\www\framework\system\core\loader.php on line 22
+[27-Nov-2014 11:34:00 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:34:00 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:34:00 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:61
+[27-Nov-2014 11:34:00 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:22}() C:\wamp\www\framework\system\core\loader.php:22
+[27-Nov-2014 11:36:08 America/Sao_Paulo] PHP Warning:  call_user_func_array() expects parameter 2 to be array, null given in C:\wamp\www\framework\system\core\loader.php on line 20
+[27-Nov-2014 11:36:08 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:36:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:36:08 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:61
+[27-Nov-2014 11:36:08 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:20}() C:\wamp\www\framework\system\core\loader.php:20
+[27-Nov-2014 11:48:27 America/Sao_Paulo] PHP Fatal error:  Undefined class constant 'METHOD_NOT_EXIST' in C:\wamp\www\framework\system\core\loader.php on line 24
+[27-Nov-2014 11:48:27 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:48:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:48:27 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:61
+[27-Nov-2014 11:50:04 America/Sao_Paulo] PHP Notice:  Undefined variable: errorMessage in C:\wamp\www\framework\system\core\exception\loader.php on line 40
+[27-Nov-2014 11:50:04 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 11:50:04 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 11:50:04 America/Sao_Paulo] PHP   2. LoaderException->errorMessage() C:\wamp\www\framework\index.php:65
+[27-Nov-2014 12:06:31 America/Sao_Paulo] PHP Warning:  call_user_func_array() expects parameter 2 to be array, null given in C:\wamp\www\framework\system\core\loader.php on line 20
+[27-Nov-2014 12:06:31 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 12:06:31 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 12:06:31 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:61
+[27-Nov-2014 12:06:31 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:20}() C:\wamp\www\framework\system\core\loader.php:20
+[27-Nov-2014 12:14:50 America/Sao_Paulo] PHP Notice:  Undefined property: Router::$classs in C:\wamp\www\framework\system\core\router.php on line 43
+[27-Nov-2014 12:14:50 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 12:14:50 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 12:14:50 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:52
+[27-Nov-2014 14:41:27 America/Sao_Paulo] PHP Fatal error:  Class 'Controller' not found in C:\wamp\www\framework\application\controller\common\home.php on line 3
+[27-Nov-2014 14:41:27 America/Sao_Paulo] PHP Stack trace:
+[27-Nov-2014 14:41:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[27-Nov-2014 14:41:27 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:61
+[27-Nov-2014 14:41:27 America/Sao_Paulo] PHP   3. require() C:\wamp\www\framework\system\core\loader.php:12

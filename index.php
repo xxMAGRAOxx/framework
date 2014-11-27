@@ -3,12 +3,14 @@
 	define('VERSION', '0');
 	
 	define('ENVIRONMENT', 'development');
+	define('DEBUG_MODE', TRUE);
 	
 	//Inclui os arquivos do sistema
 	require('config.php');	
 	require(DIR_SYSTEM . 'core/request.php');
 	require(DIR_SYSTEM . 'core/router.php');
-	
+	require(DIR_SYSTEM . 'core/loader.php');
+	require(DIR_SYSTEM . 'core/autoload.php');	
 	
 	//Seta o charset
 	if(defined(CHARSET))
@@ -24,9 +26,11 @@
 			case 'development' :
 				error_reporting(E_ALL);
 				break;
+				
 			case 'production' :
 				error_reporting(0);
 				break;
+				
 			default:
 				exit('O ambiente de desenvolvimento não foi setado corretamente!');
 				
@@ -53,5 +57,15 @@
 	{
 		$router = new Router('home');//Página padrão
 	}
+	
+	try
+	{
+		$loader = new Loader($router);
+	}
+	catch(LoaderException $loaderEX)	
+	{
+		die($loaderEX->errorMessage());
+	}
+	
 	
 ?>
