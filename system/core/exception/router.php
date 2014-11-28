@@ -1,5 +1,5 @@
 <?php
-	class LoaderException extends Exception	
+	class RouterException extends Exception	
 	{
 		const FILE_NOT_EXIST = 1;
 		const METHOD_NOT_EXIST = 2;

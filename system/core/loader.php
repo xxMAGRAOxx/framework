@@ -1,34 +1,46 @@
-<?php 
-	require('exception/loader.php');
-	
-	class Loader extends LoaderException
+<?php
+	class Loader
 	{
-		public function __construct(Router $router)
+		public function view($view, $vars, $return = FALSE)
 		{
-			if(DEBUG_MODE) var_dump($router);
+			$file = DIR_APPLICATION . 'view/' . $view;
 			
-			if (file_exists($router->getFile()))
-			{
-				require($router->getFile());
-				
-				$Class = $router->getClass();
-				
-				$Controller = new $Class();
-				
-				if(method_exists($Controller, $router->getMethod()))
+			$fileFounded = FALSE;
+			
+			foreach(array('.php', '.html', '.htm') as $fileExtension)
+			{				
+				if(file_exists($file . $fileExtension))
 				{
-					call_user_func_array(array($Controller, $router->getMethod()), $router->getArgs());//Faz a chamada a funcao
+					$fileFounded = TRUE;
+					
+					$file .= $fileExtension;
+				}				
+			}
+			
+			if($fileFounded)
+			{
+				extract($vars);
+				
+				ob_start();
+				
+				require($file);
+				
+				if($return)
+				{
+					$buffer = ob_get_contents();
+					@ob_end_clean();
+					return $buffer;
 				}
 				else
-				{
-					throw new LoaderException(LoaderException::METHOD_NOT_EXIST);
+				{	
+					echo ob_get_contents();
+					@ob_end_clean();
 				}
 			}
 			else
 			{
-				throw new LoaderException(LoaderException::FILE_NOT_EXIST);
+				die('Página não encontrada!');
 			}
-			
 		}
 	}
 ?>

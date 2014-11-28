@@ -1,5 +1,7 @@
 <?php
-	final class Router
+	require('exception/router.php');
+	
+	final class Router extends RouterException
 	{
 		protected $file;
 		protected $class;
@@ -8,75 +10,93 @@
 		
 		function __construct($router)
 		{
-			$_URL = explode('/', $router);
-			
-			if(DEBUG_MODE) var_dump($_URL);
-			
-			$fullpath = '';
-			
-			foreach($_URL as $part_url)
+			//Padrão
+			if($router == 'default')
 			{
-				$fullpath .= $part_url;
+				$this->file = DIR_APPLICATION . 'controller/' . DEFAULT_CONTROLLER . '.php';						
+				$this->class = basename(DEFAULT_CONTROLLER);
+				$this->method = 'index';
+				$this->args = array();
+			}
+			else
+			{			
+				$_URL = explode('/', $router);
 				
-				//Primeiramente verificamos se é um diretório
-				if(is_dir(DIR_APPLICATION . 'controller/' . $fullpath))
+				if(DEBUG_MODE) var_dump($_URL);
+				
+				$fullpath = '';
+				
+				foreach($_URL as $part_url)
 				{
-					$fullpath .= '/';
+					$fullpath .= $part_url;
 					
-					array_shift($_URL);
-					
-					continue;
-				}
-				
-				//Não sendo, pode ser que seja um arquivo e consequentemente uma classe
-				if(is_file(DIR_APPLICATION . 'controller/' . $fullpath . '.php'))
-				{					
-					$this->file = DIR_APPLICATION . 'controller/' . $fullpath . '.php';
-					
-					$this->class = basename($fullpath);//A última parte é a Classe
-					
-					array_shift($_URL);
-					
-					//continue;
-				}
-				
-				//Só pode ter metodo se existir classe
-				if($this->class)
-				{
-					$method = array_shift($_URL);
-					
-					if ($method)
+					//Primeiramente verificamos se é um diretório
+					if(is_dir(DIR_APPLICATION . 'controller/' . $fullpath))
 					{
-						$this->method = $method;
-						$this->args = array_values($_URL);//Se encontrou o metodo o restante so pode ser argumentos
-						break;
-					} else
+						$fullpath .= '/';
+						
+						array_shift($_URL);
+						
+						continue;
+					}
+					
+					//Não sendo, pode ser que seja um arquivo e consequentemente uma classe
+					if(is_file(DIR_APPLICATION . 'controller/' . $fullpath . '.php'))
+					{					
+						$this->file = DIR_APPLICATION . 'controller/' . $fullpath . '.php';
+						
+						$this->class = basename($fullpath);//A última parte é a Classe
+						
+						array_shift($_URL);
+						
+						//continue;
+					}
+					
+					//Se ja encontramos a classe resta apenas os métodos e argumentos
+					if($this->class)
 					{
-						$this->method = 'index';
-						$this->args = array();
+						$method = array_shift($_URL);
+						
+						if ($method)
+						{
+							$this->method = $method;
+							$this->args = array_values($_URL);//Se encontrou o metodo o restante so pode ser argumentos
+							break;
+						} else
+						{
+							$this->method = 'index';
+							$this->args = array();
+						}
 					}
 				}
+			}			
+		}
+		
+		public function action()
+		{
+			if(DEBUG_MODE) var_dump($this);
+			
+			if (file_exists($this->file))
+			{
+				require($this->file);
+				
+				$Class = $this->class;
+				
+				$Controller = new $Class();
+				
+				if(method_exists($Controller, $this->method))
+				{
+					call_user_func_array(array($Controller, $this->method), $this->args);//Faz a chamada a funcao
+				}
+				else
+				{
+					throw new RouterException(RouterException::METHOD_NOT_EXIST);
+				}
 			}
-		}
-		
-		public function getFile() 
-		{
-			return $this->file;
-		}
-		
-		public function getClass() 
-		{
-			return $this->class;
-		}
-		
-		public function getMethod() 
-		{
-			return $this->method;
-		}
-		
-		public function getArgs() 
-		{
-			return $this->args;
+			else
+			{
+				throw new RouterException(RouterException::FILE_NOT_EXIST);
+			}
 		}
 	}
 ?>

@@ -3,14 +3,15 @@
 	define('VERSION', '0');
 	
 	define('ENVIRONMENT', 'development');
+	
+	/*Controlador Padrão*/
+	define('DEFAULT_CONTROLLER', 'welcome');
+	
 	define('DEBUG_MODE', TRUE);
 	
 	//Inclui os arquivos do sistema
-	require('config.php');	
-	require(DIR_SYSTEM . 'core/request.php');
-	require(DIR_SYSTEM . 'core/router.php');
-	require(DIR_SYSTEM . 'core/loader.php');
-	require(DIR_SYSTEM . 'core/autoload.php');	
+	require('config.php');
+	require(DIR_SYSTEM . 'core/autoload.php');
 	
 	//Seta o charset
 	if(defined(CHARSET))
@@ -47,7 +48,7 @@
 	}
 	
 	//Faz o roteamento
-	$request = new Request();
+	$request = _new('request');
 	
 	if ($request->get('route'))
 	{
@@ -55,17 +56,16 @@
 	}
 	else
 	{
-		$router = new Router('home');//Página padrão
+		$router = new Router('default');
 	}
 	
 	try
 	{
-		$loader = new Loader($router);
+		$router->action();
 	}
-	catch(LoaderException $loaderEX)	
+	catch(RouterException $routerEX)	
 	{
-		die($loaderEX->errorMessage());
+		die($routerEX->errorMessage());
 	}
-	
 	
 ?>

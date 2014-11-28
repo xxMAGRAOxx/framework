@@ -1,11 +1,21 @@
 <?php
 	Abstract class Controller
-	{
-		public $load = new Loader();
-		
-		public function load()
+	{		
+		function __construct()
 		{
-			echo 'Foi';
+			$this->loadClasses();
 		}
+		
+		//Cria um super objeto
+		function loadClasses()
+		{
+			foreach($GLOBALS['classes'] as $var => $class)
+			{
+				$this->$var = $class;
+			}
+			
+			$this->load = _new('loader');
+		}
+		
 	}
 ?>

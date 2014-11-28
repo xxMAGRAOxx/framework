@@ -342,3 +342,437 @@
 [27-Nov-2014 14:41:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
 [27-Nov-2014 14:41:27 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:61
 [27-Nov-2014 14:41:27 America/Sao_Paulo] PHP   3. require() C:\wamp\www\framework\system\core\loader.php:12
+[28-Nov-2014 10:01:20 America/Sao_Paulo] PHP Fatal error:  Class 'welcome.php' not found in C:\wamp\www\framework\system\core\loader.php on line 16
+[28-Nov-2014 10:01:20 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 10:01:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 10:01:20 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 10:01:55 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in C:\wamp\www\framework\application\controller\welcome.php on line 7
+[28-Nov-2014 10:01:55 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 10:01:55 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 10:01:55 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 10:59:47 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Home::teste() in C:\wamp\www\framework\application\controller\common\home.php on line 7
+[28-Nov-2014 10:59:47 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 10:59:47 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 10:59:47 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 10:59:47 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:20}() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 10:59:47 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:00:51 America/Sao_Paulo] PHP Notice:  Undefined property: Home::$teste in C:\wamp\www\framework\application\controller\common\home.php on line 7
+[28-Nov-2014 11:00:51 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:00:51 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:00:51 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:00:51 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:20}() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:00:51 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:13:31 America/Sao_Paulo] PHP Notice:  Undefined property: Home::$teste in C:\wamp\www\framework\application\controller\common\home.php on line 7
+[28-Nov-2014 11:13:31 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:13:31 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:13:31 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:13:31 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:20}() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:13:31 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:14:24 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Home::request() in C:\wamp\www\framework\application\controller\common\home.php on line 8
+[28-Nov-2014 11:14:24 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:14:24 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:14:24 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:14:24 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:20}() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:14:24 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:23:21 America/Sao_Paulo] PHP Fatal error:  Class 'Common' not found in C:\wamp\www\framework\system\core\controller.php on line 11
+[28-Nov-2014 11:23:21 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:23:21 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:23:21 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:23:21 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\loader.php:16
+[28-Nov-2014 11:23:21 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 7
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\loader.php:16
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP   5. Common::getInstance() C:\wamp\www\framework\system\core\controller.php:11
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in C:\wamp\www\framework\application\controller\common\home.php on line 8
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:20}() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:23:53 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:24:07 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in C:\wamp\www\framework\application\controller\common\home.php on line 8
+[28-Nov-2014 11:24:07 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:24:07 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:24:07 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:24:07 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\loader.php:20}() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:24:07 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\loader.php:20
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP Notice:  Undefined variable: _INSTANCES in C:\wamp\www\framework\system\core\common.php on line 8
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\loader.php:16
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP   5. Common::getInstance() C:\wamp\www\framework\system\core\controller.php:11
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in C:\wamp\www\framework\system\core\common.php on line 8
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\loader.php:16
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 11:31:20 America/Sao_Paulo] PHP   5. Common::getInstance() C:\wamp\www\framework\system\core\controller.php:11
+[28-Nov-2014 11:31:53 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in C:\wamp\www\framework\system\core\common.php on line 8
+[28-Nov-2014 11:31:53 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:31:53 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:31:53 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:31:53 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\loader.php:16
+[28-Nov-2014 11:31:53 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 11:31:53 America/Sao_Paulo] PHP   5. Common::getInstance() C:\wamp\www\framework\system\core\controller.php:11
+[28-Nov-2014 11:32:43 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in C:\wamp\www\framework\system\core\common.php on line 8
+[28-Nov-2014 11:32:43 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:32:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 11:32:43 America/Sao_Paulo] PHP   2. Loader->__construct() C:\wamp\www\framework\index.php:67
+[28-Nov-2014 11:32:43 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\loader.php:16
+[28-Nov-2014 11:32:43 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 11:32:43 America/Sao_Paulo] PHP   5. Common::getInstance() C:\wamp\www\framework\system\core\controller.php:11
+[28-Nov-2014 11:40:25 America/Sao_Paulo] PHP Fatal error:  Call to private method Router::action() from context '' in C:\wamp\www\framework\index.php on line 67
+[28-Nov-2014 11:40:25 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 11:40:25 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:01:13 America/Sao_Paulo] PHP Fatal error:  Class 'Request' not found in C:\wamp\www\framework\index.php on line 50
+[28-Nov-2014 12:01:13 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:01:13 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:01:25 America/Sao_Paulo] PHP Fatal error:  Class 'Request' not found in C:\wamp\www\framework\index.php on line 50
+[28-Nov-2014 12:01:25 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:01:25 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:03:38 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in C:\wamp\www\framework\system\core\common.php on line 13
+[28-Nov-2014 12:03:38 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:03:38 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:03:38 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:03:38 America/Sao_Paulo] PHP   3. Common::setInstance() C:\wamp\www\framework\system\core\router.php:74
+[28-Nov-2014 12:05:34 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in C:\wamp\www\framework\system\core\common.php on line 13
+[28-Nov-2014 12:05:34 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:05:34 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:05:34 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:05:34 America/Sao_Paulo] PHP   3. Common::setInstance() C:\wamp\www\framework\system\core\router.php:73
+[28-Nov-2014 12:10:28 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in C:\wamp\www\framework\system\core\common.php on line 13
+[28-Nov-2014 12:10:28 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:10:28 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:10:28 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:10:28 America/Sao_Paulo] PHP   3. Common::setInstance() C:\wamp\www\framework\system\core\router.php:73
+[28-Nov-2014 12:12:08 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in C:\wamp\www\framework\system\core\common.php on line 13
+[28-Nov-2014 12:12:08 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:12:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:12:08 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:12:08 America/Sao_Paulo] PHP   3. Common::setInstance() C:\wamp\www\framework\system\core\router.php:73
+[28-Nov-2014 12:12:25 America/Sao_Paulo] PHP Fatal error:  Using $this when not in object context in C:\wamp\www\framework\system\core\common.php on line 13
+[28-Nov-2014 12:12:25 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:12:25 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:12:25 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:12:25 America/Sao_Paulo] PHP   3. Common::setInstance() C:\wamp\www\framework\system\core\router.php:73
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP Warning:  Missing argument 2 for Common::setInstance(), called in C:\wamp\www\framework\system\core\router.php on line 73 and defined in C:\wamp\www\framework\system\core\common.php on line 11
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP   3. Common::setInstance() C:\wamp\www\framework\system\core\router.php:73
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP Warning:  Illegal offset type in C:\wamp\www\framework\system\core\common.php on line 13
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP   3. Common::setInstance() C:\wamp\www\framework\system\core\router.php:73
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP Notice:  Undefined variable: object in C:\wamp\www\framework\system\core\common.php on line 13
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:14:48 America/Sao_Paulo] PHP   3. Common::setInstance() C:\wamp\www\framework\system\core\router.php:73
+[28-Nov-2014 12:18:09 America/Sao_Paulo] PHP Notice:  Undefined variable: _INSTANCES in C:\wamp\www\framework\system\core\common.php on line 8
+[28-Nov-2014 12:18:10 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:18:10 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:18:10 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:18:10 America/Sao_Paulo] PHP   3. Common::getInstance() C:\wamp\www\framework\system\core\router.php:74
+[28-Nov-2014 12:19:14 America/Sao_Paulo] PHP Notice:  Undefined variable: _INSTANCES in C:\wamp\www\framework\system\core\common.php on line 8
+[28-Nov-2014 12:19:14 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:19:14 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:19:14 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:19:14 America/Sao_Paulo] PHP   3. Common::getInstance() C:\wamp\www\framework\system\core\router.php:74
+[28-Nov-2014 12:20:00 America/Sao_Paulo] PHP Notice:  Undefined variable: _INSTANCES in C:\wamp\www\framework\system\core\common.php on line 8
+[28-Nov-2014 12:20:00 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:20:00 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:20:00 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:20:00 America/Sao_Paulo] PHP   3. Common::getInstance() C:\wamp\www\framework\system\core\router.php:74
+[28-Nov-2014 12:25:10 America/Sao_Paulo] PHP Notice:  Undefined variable: _INSTANCES in C:\wamp\www\framework\system\core\router.php on line 74
+[28-Nov-2014 12:25:10 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:25:10 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:25:10 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:26:28 America/Sao_Paulo] PHP Notice:  Undefined variable: _INSTANCES in C:\wamp\www\framework\system\core\common.php on line 12
+[28-Nov-2014 12:26:28 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:26:28 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:26:28 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:26:28 America/Sao_Paulo] PHP   3. get_instance() C:\wamp\www\framework\system\core\router.php:74
+[28-Nov-2014 12:29:56 America/Sao_Paulo] PHP Notice:  Undefined variable: _INSTANCES in C:\wamp\www\framework\system\core\common.php on line 12
+[28-Nov-2014 12:29:56 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:29:56 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:29:56 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:29:56 America/Sao_Paulo] PHP   3. get_instance() C:\wamp\www\framework\system\core\router.php:74
+[28-Nov-2014 12:31:42 America/Sao_Paulo] PHP Notice:  Undefined variable: _INSTANCES in C:\wamp\www\framework\system\core\common.php on line 12
+[28-Nov-2014 12:31:42 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 12:31:42 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 12:31:42 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:55
+[28-Nov-2014 12:31:42 America/Sao_Paulo] PHP   3. get_instance() C:\wamp\www\framework\system\core\router.php:74
+[28-Nov-2014 13:59:38 America/Sao_Paulo] PHP Notice:  Undefined variable: _INSTANCES in C:\wamp\www\framework\system\core\common.php on line 11
+[28-Nov-2014 13:59:38 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 13:59:38 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 13:59:38 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:65
+[28-Nov-2014 13:59:38 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\router.php:85
+[28-Nov-2014 13:59:38 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 13:59:38 America/Sao_Paulo] PHP   5. get_instance() C:\wamp\www\framework\system\core\controller.php:11
+[28-Nov-2014 13:59:58 America/Sao_Paulo] PHP Fatal error:  Call to undefined function get_instance() in C:\wamp\www\framework\system\core\controller.php on line 11
+[28-Nov-2014 13:59:58 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 13:59:58 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 13:59:58 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:65
+[28-Nov-2014 13:59:58 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\router.php:85
+[28-Nov-2014 13:59:58 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP Notice:  Undefined index: Request in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 26
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in C:\wamp\www\framework\index.php on line 53
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:34:38 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP Notice:  Undefined index: Request in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 26
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in C:\wamp\www\framework\index.php on line 53
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:35:27 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:39:46 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:39:46 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:39:46 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:39:46 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:40:05 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:40:05 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:40:05 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:40:05 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:40:14 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:40:14 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:40:14 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:40:14 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:41:47 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:41:47 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:41:47 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:41:47 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:42:03 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:42:03 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:42:03 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:42:03 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP Notice:  Undefined index: Request in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 26
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in C:\wamp\www\framework\index.php on line 53
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:42:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:43:14 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:43:14 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:43:14 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:43:14 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:43:22 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:43:22 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:43:22 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:43:22 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:43:41 America/Sao_Paulo] PHP Notice:  Only variable references should be returned by reference in C:\wamp\www\framework\system\core\common.php on line 20
+[28-Nov-2014 14:43:41 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:43:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:43:41 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:49:15 America/Sao_Paulo] PHP Notice:  Undefined variable: class in C:\wamp\www\framework\system\core\common.php on line 18
+[28-Nov-2014 14:49:15 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:49:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:49:15 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:49:15 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Request in C:\wamp\www\framework\system\core\request.php on line 3
+[28-Nov-2014 14:49:15 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:49:15 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:49:15 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:49:15 America/Sao_Paulo] PHP   3. require() C:\wamp\www\framework\system\core\common.php:26
+[28-Nov-2014 14:49:25 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Request in C:\wamp\www\framework\system\core\request.php on line 3
+[28-Nov-2014 14:49:25 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:49:25 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:49:25 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:49:25 America/Sao_Paulo] PHP   3. require() C:\wamp\www\framework\system\core\common.php:26
+[28-Nov-2014 14:50:59 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Request in C:\wamp\www\framework\system\core\request.php on line 3
+[28-Nov-2014 14:50:59 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:50:59 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:50:59 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:50:59 America/Sao_Paulo] PHP   3. require() C:\wamp\www\framework\system\core\common.php:27
+[28-Nov-2014 14:51:43 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Request in C:\wamp\www\framework\system\core\request.php on line 3
+[28-Nov-2014 14:51:43 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:51:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:51:43 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:51:43 America/Sao_Paulo] PHP   3. require() C:\wamp\www\framework\system\core\common.php:27
+[28-Nov-2014 14:53:49 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Request in C:\wamp\www\framework\system\core\request.php on line 3
+[28-Nov-2014 14:53:49 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:53:49 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:53:49 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:53:49 America/Sao_Paulo] PHP   3. require() C:\wamp\www\framework\system\core\common.php:20
+[28-Nov-2014 14:57:08 America/Sao_Paulo] PHP Notice:  Undefined index: Request in C:\wamp\www\framework\system\core\common.php on line 19
+[28-Nov-2014 14:57:08 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:57:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:57:08 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:57:08 America/Sao_Paulo] PHP Fatal error:  Cannot redeclare class Request in C:\wamp\www\framework\system\core\request.php on line 3
+[28-Nov-2014 14:57:08 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 14:57:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 14:57:08 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 14:57:08 America/Sao_Paulo] PHP   3. require() C:\wamp\www\framework\system\core\common.php:28
+[28-Nov-2014 15:05:09 America/Sao_Paulo] PHP Notice:  Undefined variable: _CLASSES in C:\wamp\www\framework\index.php on line 53
+[28-Nov-2014 15:05:09 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:05:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:05:59 America/Sao_Paulo] PHP Notice:  Undefined variable: _CLASSES in C:\wamp\www\framework\system\core\common.php on line 16
+[28-Nov-2014 15:05:59 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:05:59 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:05:59 America/Sao_Paulo] PHP   2. _teste() C:\wamp\www\framework\index.php:52
+[28-Nov-2014 15:15:41 America/Sao_Paulo] PHP Notice:  Undefined variable: _GLOBALS in C:\wamp\www\framework\index.php on line 52
+[28-Nov-2014 15:15:41 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:15:41 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP Notice:  Undefined variable: Class in C:\wamp\www\framework\system\core\controller.php on line 11
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\router.php:85
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP Notice:  Undefined index:  in C:\wamp\www\framework\system\core\controller.php on line 11
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\router.php:85
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP Notice:  Undefined property: Home::$request in C:\wamp\www\framework\system\core\controller.php on line 11
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\router.php:85
+[28-Nov-2014 15:19:09 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP Notice:  Undefined property: Home::$request in C:\wamp\www\framework\system\core\controller.php on line 11
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\router.php:85
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP Notice:  Object of class Request could not be converted to int in C:\wamp\www\framework\system\core\controller.php on line 11
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\router.php:85
+[28-Nov-2014 15:19:20 America/Sao_Paulo] PHP   4. Controller->loadClass() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP Notice:  Undefined property: Home::$request in C:\wamp\www\framework\application\controller\common\home.php on line 8
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in C:\wamp\www\framework\application\controller\common\home.php on line 8
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:33:24 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP Notice:  Undefined property: Home::$request in C:\wamp\www\framework\application\controller\common\home.php on line 8
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in C:\wamp\www\framework\application\controller\common\home.php on line 8
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:34:25 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP Warning:  strtolower() expects parameter 1 to be string, array given in C:\wamp\www\framework\system\core\controller.php on line 12
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\router.php:85
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   4. Controller->loadClasses() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   5. strtolower() C:\wamp\www\framework\system\core\controller.php:12
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP Warning:  Invalid argument supplied for foreach() in C:\wamp\www\framework\system\core\controller.php on line 12
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\router.php:85
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   4. Controller->loadClasses() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP Notice:  Undefined property: Home::$request in C:\wamp\www\framework\application\controller\common\home.php on line 8
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP Fatal error:  Call to a member function get() on a non-object in C:\wamp\www\framework\application\controller\common\home.php on line 8
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:38:37 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\framework\system\core\common.php on line 14
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP   2. _new() C:\wamp\www\framework\index.php:51
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP Notice:  Array to string conversion in C:\wamp\www\framework\system\core\common.php on line 14
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP   3. Controller->__construct() C:\wamp\www\framework\system\core\router.php:85
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP   4. Controller->loadClasses() C:\wamp\www\framework\system\core\controller.php:6
+[28-Nov-2014 15:53:49 America/Sao_Paulo] PHP   5. _new() C:\wamp\www\framework\system\core\controller.php:17
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP Warning:  Missing argument 1 for Loader::view(), called in C:\wamp\www\framework\application\controller\common\home.php on line 8 and defined in C:\wamp\www\framework\system\core\loader.php on line 4
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP   5. Loader->view() C:\wamp\www\framework\application\controller\common\home.php:8
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP Notice:  Undefined variable: view in C:\wamp\www\framework\system\core\loader.php on line 6
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 15:58:43 America/Sao_Paulo] PHP   5. Loader->view() C:\wamp\www\framework\application\controller\common\home.php:8
+[28-Nov-2014 17:05:08 America/Sao_Paulo] PHP Notice:  Undefined variable: var1 in C:\wamp\www\framework\system\core\loader.php on line 11
+[28-Nov-2014 17:05:08 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 17:05:08 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 17:05:08 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 17:05:08 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 17:05:08 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 17:05:08 America/Sao_Paulo] PHP   5. Loader->view() C:\wamp\www\framework\application\controller\common\home.php:8
+[28-Nov-2014 17:05:44 America/Sao_Paulo] PHP Parse error:  syntax error, unexpected '<' in C:\wamp\www\framework\system\core\loader.php(12) : eval()'d code on line 1
+[28-Nov-2014 17:05:44 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 17:05:44 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 17:05:44 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 17:05:44 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 17:05:44 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 17:05:44 America/Sao_Paulo] PHP   5. Loader->view() C:\wamp\www\framework\application\controller\common\home.php:8
+[28-Nov-2014 17:07:19 America/Sao_Paulo] PHP Notice:  Undefined variable: var1 in C:\wamp\www\framework\application\view\welcome.php on line 2
+[28-Nov-2014 17:07:19 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 17:07:19 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 17:07:19 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 17:07:19 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 17:07:19 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 17:07:19 America/Sao_Paulo] PHP   5. Loader->view() C:\wamp\www\framework\application\controller\common\home.php:8
+[28-Nov-2014 17:07:19 America/Sao_Paulo] PHP   6. require() C:\wamp\www\framework\system\core\loader.php:12
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP Warning:  require(C:\wamp\www\framework/application/view/welcomeC:\wamp\www\framework/application/view/welcome.php): failed to open stream: Invalid argument in C:\wamp\www\framework\system\core\loader.php on line 26
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP   5. Loader->view() C:\wamp\www\framework\application\controller\common\home.php:8
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP Fatal error:  require(): Failed opening required 'C:\wamp\www\framework/application/view/welcomeC:\wamp\www\framework/application/view/welcome.php' (include_path='.;C:\php\pear') in C:\wamp\www\framework\system\core\loader.php on line 26
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP Stack trace:
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP   2. Router->action() C:\wamp\www\framework\index.php:64
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP   3. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:89}() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP   4. Home->index() C:\wamp\www\framework\system\core\router.php:89
+[28-Nov-2014 17:16:03 America/Sao_Paulo] PHP   5. Loader->view() C:\wamp\www\framework\application\controller\common\home.php:8
