@@ -1,26 +1,33 @@
 <?php
-	require('exception/router.php');
+	require(DIR_SYSTEM . 'libraries/exceptions/router_exception.php');
 	
-	final class Router extends RouterException
+	final class Router
 	{
 		protected $file;
 		protected $class;
 		protected $method;
 		protected $args;
 		
-		function __construct($router)
+		function __construct($url)
 		{
-			//Padrão
-			if($router == 'default')
+			/*** Vai para a página padrão ***/
+			if(empty($url))
 			{
 				$this->file = DIR_APPLICATION . 'controller/' . DEFAULT_CONTROLLER . '.php';						
 				$this->class = basename(DEFAULT_CONTROLLER);
 				$this->method = 'index';
 				$this->args = array();
 			}
+			/*** Somente para tornar a url mais amigável, pois não faz sentido não ter a palavra route ***/
+			/*else if(explode('=', $url)[0] != 'route')
+			{
+				header('Location: http://localhost/framework/index.php');
+			}*/
+			
+			/*** Começa a brincadeira ***/
 			else
-			{			
-				$_URL = explode('/', $router);
+			{
+				$_URL = explode('/', $url);
 				
 				if(DEBUG_MODE) var_dump($_URL);
 				
@@ -70,9 +77,11 @@
 					}
 				}
 			}			
+			
+			$this->action();
 		}
 		
-		public function action()
+		private function action()
 		{
 			if(DEBUG_MODE) var_dump($this);
 			

@@ -1,11 +1,15 @@
 <?php
 	
-	function &_new($Class)
+	/***
+	 * A ideía aqui é manter um registro de todas as classes que foram instanciadas. 
+	 * Com isso podemos criar superobjetos como eh o caso Controller
+	 *
+	***/
+	function &_new($Class, $contruct = null)
 	{
-		//A ideía é manter um registro de todas as classes que foram instanciadas
 		if (!class_exists($Class))
 		{
-			die("Classe {$Class} não encontrada!");
+			die("A Classe {$Class} não foi carregada!");
 		}
 		else
 		{

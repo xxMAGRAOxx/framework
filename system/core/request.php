@@ -1,4 +1,6 @@
 <?php
+	require(DIR_SYSTEM . 'libraries/exceptions/request_exception.php');
+	
 	class Request
 	{		
 		public function get($param = null)

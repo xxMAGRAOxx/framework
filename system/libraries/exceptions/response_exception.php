@@ -1,10 +1,9 @@
 <?php
-	class RouterException extends Exception	
+	class ResponseException extends Exception	
 	{
 		const FILE_NOT_EXIST = 1;
 		const METHOD_NOT_EXIST = 2;
 		const TOO_MANY_ARGS = 3;
-		private $router;
 		
 		public function __construct($code = null)
 		{

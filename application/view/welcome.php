@@ -1,3 +1,3 @@
 <?php
-	echo "<strong>{$val1}</strong>";
+	echo "<strong>Foooiiii</strong>";
 ?>

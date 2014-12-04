@@ -7,11 +7,11 @@
 	/*Controlador Padrão*/
 	define('DEFAULT_CONTROLLER', 'welcome');
 	
-	define('DEBUG_MODE', TRUE);
+	define('DEBUG_MODE', FALSE);
 	
 	//Inclui os arquivos do sistema
 	require('config.php');
-	require(DIR_SYSTEM . 'core/autoload.php');
+	require(DIR_SYSTEM . '/autoload.php');
 	
 	//Seta o charset
 	if(defined(CHARSET))
@@ -47,25 +47,41 @@
 		date_default_timezone_set(TIMEZONE);
 	}
 	
-	//Faz o roteamento
-	$request = _new('request');
+	/*** Começa a brincadeira ***/
 	
-	if ($request->get('route'))
-	{
-		$router = new Router($request->get('route'));
-	}
-	else
-	{
-		$router = new Router('default');
-	}
+	$registry = new Registry();
+	
+	$database = new Database(DB_DRIVER, DB_HOSTNAME, DB_USERNAME, DB_PASSWORD, DB_DATABASE);
+	$registry->set('db', $database);
+	
+	$request = new Request();
+	$registry->set('request', $request);
+	
+	$response = new Response();
+	$registry->set('response', $response);
+	
+	$loader = new Loader();
+	$registry->set('loader', $loader);
 	
 	try
 	{
-		$router->action();
+		/*** Faz o roteamento e consequentemente a chamada ao controlador do Usuário e vamo que vamo! ***/
+		$router = new Router($request->get('route'));
+		
+		/*** Envia para o Browser e seja o que Deus quiser! **/
+		$response->output();
 	}
 	catch(RouterException $routerEX)	
 	{
 		die($routerEX->errorMessage());
+	}
+	/*catch(RequestException $requestEX)	
+	{
+		die($requestEX->errorMessage());
+	}*/
+	catch(ResponseException $responseEX)	
+	{
+		die($responseEX->errorMessage());
 	}
 	
 ?>
