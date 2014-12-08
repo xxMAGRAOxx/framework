@@ -1,3 +1,4 @@
 <div id="body">
-	<?php echo $body ?>
+	<?php var_dump($_SERVER); ?>
 </div>
+

@@ -26,7 +26,7 @@
 
 				try
 				{
-					$this->driver = new $Class($hostname, $username, $password, $database);
+					$this->driver = @new $Class($hostname, $username, $password, $database);
 					
 					$this->driver->setCharset();
 				}
@@ -35,6 +35,7 @@
 					$this->hasError = TRUE;
 					$this->errorMessage = $sqlEXC->getCustomError()['message'];
 					$this->errorCode = $sqlEXC->getCustomError()['code'];
+					Log::write();
 				}
 			}
 			else
@@ -45,15 +46,19 @@
 
 		public function query($sql)
 		{
-			try
+			if(is_object($this->driver))
 			{
-				$this->driver->query($sql);
-			}
-			catch(SQLException $sqlEXC)
-			{
-				$this->hasError = TRUE;
-				$this->errorMessage = $sqlEXC->getCustomError()['message'];
-				$this->errorCode = $sqlEXC->getCustomError()['code'];
+				try
+				{
+					$this->driver->query($sql);
+				}
+				catch(SQLException $sqlEXC)
+				{
+					$this->hasError = TRUE;
+					$this->errorMessage = $sqlEXC->getCustomError()['message'];
+					$this->errorCode = $sqlEXC->getCustomError()['code'];
+					Log::write($sqlEXC->getCustomError()['fullMessage']);
+				}
 			}
 		}
 

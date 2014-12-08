@@ -1,0 +1,179 @@
+[05-Dec-2014 14:57:54 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 14:57:54 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 14:57:54 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 14:57:54 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 14:57:54 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 14:57:54 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 14:57:54 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 14:58:35 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 14:58:35 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 14:58:35 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 14:58:35 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 14:58:35 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 14:58:35 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 14:58:35 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:11:23 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 15:11:23 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:11:23 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:11:23 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:11:23 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:11:23 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 15:11:23 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:12:18 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 15:12:18 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:12:18 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:12:18 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:12:18 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:12:18 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 15:12:18 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:12:29 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 15:12:29 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:12:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:12:29 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:12:29 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:12:29 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 15:12:29 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:12:40 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 15:12:40 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:12:40 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:12:40 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:12:40 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:12:40 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 15:12:40 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:17:05 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 15:17:05 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:17:05 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:17:05 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:17:05 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:17:05 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 15:17:05 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP Fatal error:  Call to a member function query() on a non-object in C:\wamp\www\framework\system\database\database.php on line 52
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:72
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   3. Router->action() C:\wamp\www\framework\system\core\router.php:81
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:98}() C:\wamp\www\framework\system\core\router.php:98
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   5. Welcome->index() C:\wamp\www\framework\system\core\router.php:98
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   6. Welcomes->helloWorld() C:\wamp\www\framework\application\controller\welcome.php:13
+[05-Dec-2014 15:17:36 America/Sao_Paulo] PHP   7. Database->query() C:\wamp\www\framework\application\model\account\welcomes.php:7
+[05-Dec-2014 15:17:48 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 15:17:48 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:17:48 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:17:48 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:17:48 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:17:48 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 15:17:48 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:18:46 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 15:18:46 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:18:46 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:18:46 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:18:46 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:18:46 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 15:18:46 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP Fatal error:  Call to a member function query() on a non-object in C:\wamp\www\framework\system\database\database.php on line 52
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:72
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   3. Router->action() C:\wamp\www\framework\system\core\router.php:81
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:98}() C:\wamp\www\framework\system\core\router.php:98
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   5. Welcome->index() C:\wamp\www\framework\system\core\router.php:98
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   6. Welcomes->helloWorld() C:\wamp\www\framework\application\controller\welcome.php:13
+[05-Dec-2014 15:18:55 America/Sao_Paulo] PHP   7. Database->query() C:\wamp\www\framework\application\model\account\welcomes.php:7
+[05-Dec-2014 15:22:44 America/Sao_Paulo] PHP Fatal error:  Call to undefined method Database::getCode() in C:\wamp\www\framework\system\database\database.php on line 38
+[05-Dec-2014 15:22:44 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:22:44 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:22:44 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:22:44 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:23:31 America/Sao_Paulo] PHP Fatal error:  Call to a member function query() on a non-object in C:\wamp\www\framework\system\database\database.php on line 51
+[05-Dec-2014 15:23:31 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:23:31 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:23:31 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:72
+[05-Dec-2014 15:23:31 America/Sao_Paulo] PHP   3. Router->action() C:\wamp\www\framework\system\core\router.php:81
+[05-Dec-2014 15:23:31 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:98}() C:\wamp\www\framework\system\core\router.php:98
+[05-Dec-2014 15:23:31 America/Sao_Paulo] PHP   5. Welcome->index() C:\wamp\www\framework\system\core\router.php:98
+[05-Dec-2014 15:23:31 America/Sao_Paulo] PHP   6. Welcomes->helloWorld() C:\wamp\www\framework\application\controller\welcome.php:13
+[05-Dec-2014 15:23:31 America/Sao_Paulo] PHP   7. Database->query() C:\wamp\www\framework\application\model\account\welcomes.php:7
+[05-Dec-2014 15:25:00 America/Sao_Paulo] PHP Warning:  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+[05-Dec-2014 15:25:00 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:25:00 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:25:00 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:25:00 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:25:00 America/Sao_Paulo] PHP   4. DB_Mysqli->__construct() C:\wamp\www\framework\system\database\database.php:29
+[05-Dec-2014 15:25:00 America/Sao_Paulo] PHP   5. mysqli->mysqli() C:\wamp\www\framework\system\database\drivers\mysqli.php:11
+[05-Dec-2014 15:37:56 America/Sao_Paulo] PHP Notice:  Undefined variable: teste in C:\wamp\www\framework\system\libraries\log.php on line 8
+[05-Dec-2014 15:37:56 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:37:56 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:37:56 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:37:56 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:37:56 America/Sao_Paulo] PHP   4. Log::write() C:\wamp\www\framework\system\database\database.php:38
+[05-Dec-2014 15:42:29 America/Sao_Paulo] PHP Notice:  Undefined variable: teste in C:\wamp\www\framework\system\libraries\log.php on line 8
+[05-Dec-2014 15:42:29 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:42:29 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:42:29 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:42:29 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:42:29 America/Sao_Paulo] PHP   4. Log::write() C:\wamp\www\framework\system\database\database.php:38
+[05-Dec-2014 15:42:59 America/Sao_Paulo] PHP Notice:  Undefined variable: teste in C:\wamp\www\framework\system\libraries\log.php on line 8
+[05-Dec-2014 15:42:59 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:42:59 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:42:59 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:42:59 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:42:59 America/Sao_Paulo] PHP   4. Log::write() C:\wamp\www\framework\system\database\database.php:38
+[05-Dec-2014 15:43:21 America/Sao_Paulo] PHP Notice:  Undefined variable: teste in C:\wamp\www\framework\system\libraries\log.php on line 8
+[05-Dec-2014 15:43:21 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:43:21 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:43:21 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:43:21 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:43:21 America/Sao_Paulo] PHP   4. Log::write() C:\wamp\www\framework\system\database\database.php:38
+[05-Dec-2014 15:43:58 America/Sao_Paulo] PHP Notice:  Undefined variable: teste in C:\wamp\www\framework\system\libraries\log.php on line 8
+[05-Dec-2014 15:43:58 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:43:58 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:43:58 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:43:58 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:43:58 America/Sao_Paulo] PHP   4. Log::write() C:\wamp\www\framework\system\database\database.php:38
+[05-Dec-2014 15:44:57 America/Sao_Paulo] PHP Notice:  Undefined variable: teste in C:\wamp\www\framework\system\libraries\log.php on line 8
+[05-Dec-2014 15:44:57 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:44:57 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:44:57 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:44:57 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:44:57 America/Sao_Paulo] PHP   4. Log::write() C:\wamp\www\framework\system\database\database.php:38
+[05-Dec-2014 15:45:02 America/Sao_Paulo] PHP Notice:  Undefined variable: teste in C:\wamp\www\framework\system\libraries\log.php on line 8
+[05-Dec-2014 15:45:02 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:45:02 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:45:02 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:45:02 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:45:02 America/Sao_Paulo] PHP   4. Log::write() C:\wamp\www\framework\system\database\database.php:38
+[05-Dec-2014 15:45:42 America/Sao_Paulo] PHP Notice:  Undefined variable: teste in C:\wamp\www\framework\system\libraries\log.php on line 8
+[05-Dec-2014 15:45:42 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:45:42 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:45:42 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:45:42 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:45:42 America/Sao_Paulo] PHP   4. Log::write() C:\wamp\www\framework\system\database\database.php:38
+[05-Dec-2014 15:45:56 America/Sao_Paulo] PHP Notice:  Undefined variable: teste in C:\wamp\www\framework\system\libraries\log.php on line 8
+[05-Dec-2014 15:45:56 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 15:45:56 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 15:45:56 America/Sao_Paulo] PHP   2. Database->__construct() C:\wamp\www\framework\index.php:57
+[05-Dec-2014 15:45:56 America/Sao_Paulo] PHP   3. Database->connect() C:\wamp\www\framework\system\database\database.php:14
+[05-Dec-2014 15:45:56 America/Sao_Paulo] PHP   4. Log::write() C:\wamp\www\framework\system\database\database.php:38
+[05-Dec-2014 16:02:59 America/Sao_Paulo] PHP Notice:  Undefined property: Database::$con in C:\wamp\www\framework\system\database\database.php on line 49
+[05-Dec-2014 16:02:59 America/Sao_Paulo] PHP Stack trace:
+[05-Dec-2014 16:02:59 America/Sao_Paulo] PHP   1. {main}() C:\wamp\www\framework\index.php:0
+[05-Dec-2014 16:02:59 America/Sao_Paulo] PHP   2. Router->__construct() C:\wamp\www\framework\index.php:72
+[05-Dec-2014 16:02:59 America/Sao_Paulo] PHP   3. Router->action() C:\wamp\www\framework\system\core\router.php:81
+[05-Dec-2014 16:02:59 America/Sao_Paulo] PHP   4. call_user_func_array:{C:\wamp\www\framework\system\core\router.php:98}() C:\wamp\www\framework\system\core\router.php:98
+[05-Dec-2014 16:02:59 America/Sao_Paulo] PHP   5. Welcome->index() C:\wamp\www\framework\system\core\router.php:98
+[05-Dec-2014 16:02:59 America/Sao_Paulo] PHP   6. Welcomes->helloWorld() C:\wamp\www\framework\application\controller\welcome.php:13
+[05-Dec-2014 16:02:59 America/Sao_Paulo] PHP   7. Database->query() C:\wamp\www\framework\application\model\account\welcomes.php:7

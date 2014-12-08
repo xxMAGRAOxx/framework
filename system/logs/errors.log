@@ -1,0 +1,17 @@
+05-12-2014 15:45:56 - 05-12-2014 15:45:56 - NOTICE :  Undefined variable: teste in C:\wamp\www\framework\system\libraries\log.php on line 8
+05-12-2014 15:46:21 - 05-12-2014 15:46:21 - WARNING :  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+05-12-2014 15:49:54 - 05-12-2014 15:49:54 - WARNING :  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+05-12-2014 15:52:10 - 05-12-2014 15:52:10 - WARNING :  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+05-12-2014 15:59:36 - 05-12-2014 15:59:36 - WARNING :  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+05-12-2014 16:01:00 - 05-12-2014 16:01:00 - :   in  on line 
+05-12-2014 16:01:53 - :   in  on line 
+05-12-2014 16:03:09 - :   in  on line 
+05-12-2014 16:03:16 - WARNING :  mysqli::mysqli(): (HY000/1049): Unknown database 'head_firsts' in C:\wamp\www\framework\system\database\drivers\mysqli.php on line 11
+05-12-2014 16:04:09 - Erro de conexão ao Banco de Dados. Error: (1049) - Unknown database 'head_firsts'
+05-12-2014 16:04:52 - Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist
+05-12-2014 16:06:04 - Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist
+05-12-2014 16:09:19 - Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist
+05-12-2014 16:11:35 - Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist
+05-12-2014 16:17:57 - Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist
+05-12-2014 16:23:35 - Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist
+05-12-2014 16:28:31 - Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist

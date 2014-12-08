@@ -4,14 +4,17 @@
 	
 	define('ENVIRONMENT', 'development');
 	
-	/*Controlador Padrão*/
-	define('DEFAULT_CONTROLLER', 'welcome');
+	define('DIR_APPLICATION', __DIR__ . '/application/');
+	
+	define('DIR_SYSTEM', __DIR__ . '/system/');
 	
 	define('DEBUG_MODE', FALSE);
 	
 	//Inclui os arquivos do sistema
-	require('config.php');
-	require(DIR_SYSTEM . '/autoload.php');
+	require(DIR_SYSTEM . 'autoload.php');
+	
+	//Inclui as bibliotecas que o Usuário definiu como Autoload
+	require(DIR_APPLICATION . 'autoload.php');
 	
 	//Seta o charset
 	if(defined(CHARSET))
@@ -33,13 +36,13 @@
 				break;
 				
 			default:
-				exit('O ambiente de desenvolvimento não foi setado corretamente!');
+				die('O ambiente de desenvolvimento não foi setado corretamente!');
 				
 		}
 	}
 	
-	//Log de erros
-	ini_set("error_log", DIR_SYSTEM . "logs/php-error.log");
+	//Log de erros padrão do PHP
+	ini_set("error_log", DIR_SYSTEM . "logs/php_default_errors.log");
 	
 	//Timezone
 	if(defined('TIMEZONE'))
@@ -68,7 +71,7 @@
 		/*** Faz o roteamento e consequentemente a chamada ao controlador do Usuário e vamo que vamo! ***/
 		$router = new Router($request->get('route'));
 		
-		/*** Envia para o Browser e seja o que Deus quiser! **/
+		/*** Depois de um carnaval do cacete, envia para o Browser e seja o que Deus quiser! **/
 		$response->output();
 	}
 	catch(RouterException $routerEX)	

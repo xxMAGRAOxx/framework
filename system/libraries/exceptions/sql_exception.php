@@ -20,17 +20,17 @@
 			$customError = array();
 			
 			switch($this->getCode())
-			{					
+			{
 				case self::DATABASE_ERROR :
-					//$errorMessage = 'Erro de conexão ao Banco de Dados. Error: (' . $this->getCode() . ') - ' . $this->getMessage(); 
 					$customError['code'] = $this->getCode();
 					$customError['message'] = $this->getMessage();
+					$customError['fullMessage'] = 'Database connection error. Error: (' . $this->getCode() . ') - ' . $this->getMessage(); 
 					break;
 				
 				default :
-					//$errorMessage = 'Erro de query: (' . $this->getCode() . ') - ' . $this->getMessage(); 
 					$customError['code'] = $this->getCode();
 					$customError['message'] = $this->getMessage();
+					$customError['fullMessage'] = 'Query error. Error: (' . $this->getCode() . ') - ' . $this->getMessage(); 
 					break;
 			}
 			

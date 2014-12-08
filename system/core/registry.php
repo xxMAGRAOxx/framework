@@ -13,6 +13,16 @@
 			return self::$_OBJECTS;
 		}
 		
+		public static function removeAll()
+		{
+			self::$_OBJECTS = [];
+		}
+		
+		public function isRegistred($index)
+		{
+			return array_key_exists($index, self::$_OBJECTS);			
+		}
+		
 		public function set($key, $object)
 		{
 			if(array_key_exists($key, self::$_OBJECTS))
@@ -23,11 +33,6 @@
 			{
 				self::$_OBJECTS[$key] = $object;
 			}
-		}
-		
-		public static function removeAll()
-		{
-			self::$_OBJECTS = [];
 		}
 	}
 ?>

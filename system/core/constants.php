@@ -1,4 +1,6 @@
-<?php
-	define('JSON_HEADER', 'Content-Type: application/json');
-	define('HTML_HEADER', 'Content-Type: text/html');
+<?php	
+	/** Headers **/
+	define('APPLICATION_JSON', 'Content-Type: application/json');
+	define('TEXT_HTML', 'Content-Type: text/html');
+	define('TEXT_PLAIN', 'Content-Type: text/plain');
 ?>

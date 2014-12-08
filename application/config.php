@@ -1,6 +1,5 @@
 <?php
-	define('DIR_APPLICATION', __DIR__ . '/application/');
-	define('DIR_SYSTEM', __DIR__ . '/system/');
+	define('DEFAULT_CONTROLLER', 'welcome');
 	
 	define('CHARSET', 'UTF-8');
 	define('TIMEZONE', 'America/Sao_Paulo');

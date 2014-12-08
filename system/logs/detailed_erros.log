@@ -1,0 +1,430 @@
+05-12-2014 16:28:31 - Array
+(
+    [0] => Array
+        (
+            [file] => C:\wamp\www\framework\system\database\database.php
+            [line] => 60
+            [function] => write
+            [class] => Log
+            [type] => ::
+            [args] => Array
+                (
+                    [0] => Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist
+                )
+
+        )
+
+    [1] => Array
+        (
+            [file] => C:\wamp\www\framework\application\model\account\welcomes.php
+            [line] => 7
+            [function] => query
+            [class] => Database
+            [object] => Database Object
+                (
+                    [driver:Database:private] => DB_Mysqli Object
+                        (
+                            [con:DB_Mysqli:private] => mysqli Object
+                                (
+                                    [affected_rows] => -1
+                                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: bf9ad53b11c9a57efdb1057292d73b928b8c5c77 $
+                                    [client_version] => 50011
+                                    [connect_errno] => 0
+                                    [connect_error] => 
+                                    [errno] => 1146
+                                    [error] => Table 'head_first.contactss' doesn't exist
+                                    [error_list] => Array
+                                        (
+                                            [0] => Array
+                                                (
+                                                    [errno] => 1146
+                                                    [sqlstate] => 42S02
+                                                    [error] => Table 'head_first.contactss' doesn't exist
+                                                )
+
+                                        )
+
+                                    [field_count] => 0
+                                    [host_info] => localhost via TCP/IP
+                                    [info] => 
+                                    [insert_id] => 0
+                                    [server_info] => 5.6.17
+                                    [server_version] => 50617
+                                    [stat] => Uptime: 20251  Threads: 1  Questions: 188  Slow queries: 0  Opens: 68  Flush tables: 1  Open tables: 61  Queries per second avg: 0.009
+                                    [sqlstate] => 00000
+                                    [protocol_version] => 10
+                                    [thread_id] => 102
+                                    [warning_count] => 0
+                                )
+
+                            [result:DB_Mysqli:private] => 
+                        )
+
+                    [errorMessage:Database:private] => Table 'head_first.contactss' doesn't exist
+                    [errorCode:Database:private] => 1146
+                    [hasError:Database:private] => 1
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => select * from contactss
+                )
+
+        )
+
+    [2] => Array
+        (
+            [file] => C:\wamp\www\framework\application\controller\welcome.php
+            [line] => 12
+            [function] => helloWorld
+            [class] => Welcomes
+            [object] => Welcomes Object
+                (
+                    [db] => Database Object
+                        (
+                            [driver:Database:private] => DB_Mysqli Object
+                                (
+                                    [con:DB_Mysqli:private] => mysqli Object
+                                        (
+                                            [affected_rows] => -1
+                                            [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: bf9ad53b11c9a57efdb1057292d73b928b8c5c77 $
+                                            [client_version] => 50011
+                                            [connect_errno] => 0
+                                            [connect_error] => 
+                                            [errno] => 0
+                                            [error] => 
+                                            [error_list] => Array
+                                                (
+                                                )
+
+                                            [field_count] => 0
+                                            [host_info] => localhost via TCP/IP
+                                            [info] => 
+                                            [insert_id] => 0
+                                            [server_info] => 5.6.17
+                                            [server_version] => 50617
+                                            [stat] => Uptime: 20251  Threads: 1  Questions: 189  Slow queries: 0  Opens: 68  Flush tables: 1  Open tables: 61  Queries per second avg: 0.009
+                                            [sqlstate] => 00000
+                                            [protocol_version] => 10
+                                            [thread_id] => 102
+                                            [warning_count] => 0
+                                        )
+
+                                    [result:DB_Mysqli:private] => 
+                                )
+
+                            [errorMessage:Database:private] => Table 'head_first.contactss' doesn't exist
+                            [errorCode:Database:private] => 1146
+                            [hasError:Database:private] => 1
+                        )
+
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                )
+
+        )
+
+    [3] => Array
+        (
+            [function] => index
+            [class] => Welcome
+            [object] => Welcome Object
+                (
+                    [db] => Database Object
+                        (
+                            [driver:Database:private] => DB_Mysqli Object
+                                (
+                                    [con:DB_Mysqli:private] => mysqli Object
+                                        (
+                                            [affected_rows] => -1
+                                            [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: bf9ad53b11c9a57efdb1057292d73b928b8c5c77 $
+                                            [client_version] => 50011
+                                            [connect_errno] => 0
+                                            [connect_error] => 
+                                            [errno] => 0
+                                            [error] => 
+                                            [error_list] => Array
+                                                (
+                                                )
+
+                                            [field_count] => 0
+                                            [host_info] => localhost via TCP/IP
+                                            [info] => 
+                                            [insert_id] => 0
+                                            [server_info] => 5.6.17
+                                            [server_version] => 50617
+                                            [stat] => Uptime: 20251  Threads: 1  Questions: 190  Slow queries: 0  Opens: 68  Flush tables: 1  Open tables: 61  Queries per second avg: 0.009
+                                            [sqlstate] => 00000
+                                            [protocol_version] => 10
+                                            [thread_id] => 102
+                                            [warning_count] => 0
+                                        )
+
+                                    [result:DB_Mysqli:private] => 
+                                )
+
+                            [errorMessage:Database:private] => Table 'head_first.contactss' doesn't exist
+                            [errorCode:Database:private] => 1146
+                            [hasError:Database:private] => 1
+                        )
+
+                    [request] => Request Object
+                        (
+                        )
+
+                    [response] => Response Object
+                        (
+                            [output:Response:private] => Array
+                                (
+                                    [0] => Foi
+                                )
+
+                            [headers:Response:private] => Array
+                                (
+                                )
+
+                        )
+
+                    [loader] => Loader Object
+                        (
+                        )
+
+                    [load] => Loader Object
+                        (
+                        )
+
+                    [welcomes] => Welcomes Object
+                        (
+                            [db] => Database Object
+                                (
+                                    [driver:Database:private] => DB_Mysqli Object
+                                        (
+                                            [con:DB_Mysqli:private] => mysqli Object
+                                                (
+                                                    [affected_rows] => -1
+                                                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: bf9ad53b11c9a57efdb1057292d73b928b8c5c77 $
+                                                    [client_version] => 50011
+                                                    [connect_errno] => 0
+                                                    [connect_error] => 
+                                                    [errno] => 0
+                                                    [error] => 
+                                                    [error_list] => Array
+                                                        (
+                                                        )
+
+                                                    [field_count] => 0
+                                                    [host_info] => localhost via TCP/IP
+                                                    [info] => 
+                                                    [insert_id] => 0
+                                                    [server_info] => 5.6.17
+                                                    [server_version] => 50617
+                                                    [stat] => Uptime: 20251  Threads: 1  Questions: 191  Slow queries: 0  Opens: 68  Flush tables: 1  Open tables: 61  Queries per second avg: 0.009
+                                                    [sqlstate] => 00000
+                                                    [protocol_version] => 10
+                                                    [thread_id] => 102
+                                                    [warning_count] => 0
+                                                )
+
+                                            [result:DB_Mysqli:private] => 
+                                        )
+
+                                    [errorMessage:Database:private] => Table 'head_first.contactss' doesn't exist
+                                    [errorCode:Database:private] => 1146
+                                    [hasError:Database:private] => 1
+                                )
+
+                        )
+
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                )
+
+        )
+
+    [4] => Array
+        (
+            [file] => C:\wamp\www\framework\system\core\router.php
+            [line] => 98
+            [function] => call_user_func_array
+            [args] => Array
+                (
+                    [0] => Array
+                        (
+                            [0] => Welcome Object
+                                (
+                                    [db] => Database Object
+                                        (
+                                            [driver:Database:private] => DB_Mysqli Object
+                                                (
+                                                    [con:DB_Mysqli:private] => mysqli Object
+                                                        (
+                                                            [affected_rows] => -1
+                                                            [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: bf9ad53b11c9a57efdb1057292d73b928b8c5c77 $
+                                                            [client_version] => 50011
+                                                            [connect_errno] => 0
+                                                            [connect_error] => 
+                                                            [errno] => 0
+                                                            [error] => 
+                                                            [error_list] => Array
+                                                                (
+                                                                )
+
+                                                            [field_count] => 0
+                                                            [host_info] => localhost via TCP/IP
+                                                            [info] => 
+                                                            [insert_id] => 0
+                                                            [server_info] => 5.6.17
+                                                            [server_version] => 50617
+                                                            [stat] => Uptime: 20251  Threads: 1  Questions: 192  Slow queries: 0  Opens: 68  Flush tables: 1  Open tables: 61  Queries per second avg: 0.009
+                                                            [sqlstate] => 00000
+                                                            [protocol_version] => 10
+                                                            [thread_id] => 102
+                                                            [warning_count] => 0
+                                                        )
+
+                                                    [result:DB_Mysqli:private] => 
+                                                )
+
+                                            [errorMessage:Database:private] => Table 'head_first.contactss' doesn't exist
+                                            [errorCode:Database:private] => 1146
+                                            [hasError:Database:private] => 1
+                                        )
+
+                                    [request] => Request Object
+                                        (
+                                        )
+
+                                    [response] => Response Object
+                                        (
+                                            [output:Response:private] => Array
+                                                (
+                                                    [0] => Foi
+                                                )
+
+                                            [headers:Response:private] => Array
+                                                (
+                                                )
+
+                                        )
+
+                                    [loader] => Loader Object
+                                        (
+                                        )
+
+                                    [load] => Loader Object
+                                        (
+                                        )
+
+                                    [welcomes] => Welcomes Object
+                                        (
+                                            [db] => Database Object
+                                                (
+                                                    [driver:Database:private] => DB_Mysqli Object
+                                                        (
+                                                            [con:DB_Mysqli:private] => mysqli Object
+                                                                (
+                                                                    [affected_rows] => -1
+                                                                    [client_info] => mysqlnd 5.0.11-dev - 20120503 - $Id: bf9ad53b11c9a57efdb1057292d73b928b8c5c77 $
+                                                                    [client_version] => 50011
+                                                                    [connect_errno] => 0
+                                                                    [connect_error] => 
+                                                                    [errno] => 0
+                                                                    [error] => 
+                                                                    [error_list] => Array
+                                                                        (
+                                                                        )
+
+                                                                    [field_count] => 0
+                                                                    [host_info] => localhost via TCP/IP
+                                                                    [info] => 
+                                                                    [insert_id] => 0
+                                                                    [server_info] => 5.6.17
+                                                                    [server_version] => 50617
+                                                                    [stat] => Uptime: 20251  Threads: 1  Questions: 193  Slow queries: 0  Opens: 68  Flush tables: 1  Open tables: 61  Queries per second avg: 0.009
+                                                                    [sqlstate] => 00000
+                                                                    [protocol_version] => 10
+                                                                    [thread_id] => 102
+                                                                    [warning_count] => 0
+                                                                )
+
+                                                            [result:DB_Mysqli:private] => 
+                                                        )
+
+                                                    [errorMessage:Database:private] => Table 'head_first.contactss' doesn't exist
+                                                    [errorCode:Database:private] => 1146
+                                                    [hasError:Database:private] => 1
+                                                )
+
+                                        )
+
+                                )
+
+                            [1] => index
+                        )
+
+                    [1] => Array
+                        (
+                        )
+
+                )
+
+        )
+
+    [5] => Array
+        (
+            [file] => C:\wamp\www\framework\system\core\router.php
+            [line] => 81
+            [function] => action
+            [class] => Router
+            [object] => Router Object
+                (
+                    [file:protected] => C:\wamp\www\framework/application/controller/welcome.php
+                    [class:protected] => welcome
+                    [method:protected] => index
+                    [args:protected] => Array
+                        (
+                        )
+
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                )
+
+        )
+
+    [6] => Array
+        (
+            [file] => C:\wamp\www\framework\index.php
+            [line] => 72
+            [function] => __construct
+            [class] => Router
+            [object] => Router Object
+                (
+                    [file:protected] => C:\wamp\www\framework/application/controller/welcome.php
+                    [class:protected] => welcome
+                    [method:protected] => index
+                    [args:protected] => Array
+                        (
+                        )
+
+                )
+
+            [type] => ->
+            [args] => Array
+                (
+                    [0] => 
+                )
+
+        )
+
+)
+
