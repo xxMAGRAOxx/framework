@@ -15,3 +15,5 @@
 05-12-2014 16:17:57 - Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist
 05-12-2014 16:23:35 - Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist
 05-12-2014 16:28:31 - Query error. Error: (1146) - Table 'head_first.contactss' doesn't exist
+10-12-2014 17:46:03 - Query error. Error: (1064) - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''cts' at line 1
+10-12-2014 17:47:07 - Query error. Error: (1064) - You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''cts' at line 1

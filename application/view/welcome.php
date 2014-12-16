@@ -1,3 +1,3 @@
 <?php
-	echo "<strong>Foooiiii</strong>";
+    echo "<strong>Foooiiii</strong>";
 ?>

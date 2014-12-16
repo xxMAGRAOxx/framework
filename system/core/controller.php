@@ -10,7 +10,7 @@
 		}
 		
 		/*** Cria um super objeto ***/
-		function loadClasses()
+		private function loadClasses()
 		{
 			// foreach($GLOBALS['classes'] as $var => $class)
 			// {
